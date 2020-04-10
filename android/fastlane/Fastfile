@@ -11,7 +11,7 @@ platform :android do
 
         # Build and sign the app
         gradle(
-            task: "assemble",
+            task: "bundle",
             build_type: "Release",
             print_command: false,
             properties: {
