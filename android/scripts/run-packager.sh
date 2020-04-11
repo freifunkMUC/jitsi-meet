@@ -19,6 +19,8 @@ else
     CMD="${THIS_DIR}/../../node_modules/react-native/scripts/launchPackager.command"
     if [[ `uname` == "Darwin"  ]]; then
         open -g "${CMD}" || echo "Can't start packager automatically"
+    elif  [[ `uname` == "Linux"  ]]; then
+        gnome-terminal -- "${CMD}"
     else
         xdg-open "${CMD}" || echo "Can't start packager automatically"
     fi
