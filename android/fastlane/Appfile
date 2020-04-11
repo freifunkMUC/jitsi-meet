@@ -1,2 +1,2 @@
-json_key_file("fastlane/api-services-account.json")
+json_key_file("fastlane/api-service-account.json")
 package_name("net.ffmuc.meet")
