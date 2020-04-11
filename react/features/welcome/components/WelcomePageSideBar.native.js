@@ -30,7 +30,7 @@ const PRIVACY_URL = 'https://ffmuc.net/privacy';
 /**
  * The URL at which the terms (of service/use) are available to the user.
  */
-const TERMS_URL = 'https://ffmuc.net/wiki/doku.php?id=knb:mee';
+const TERMS_URL = 'https://ffmuc.net/wiki/doku.php?id=knb:meet';
 
 type Props = {
 
