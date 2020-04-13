@@ -81,6 +81,7 @@ android/.settings/org.eclipse.buildship.core.prefs
 # Secrets
 android/app/dropbox.key
 android/app/google-services.json
+android/fastlane/api-service-account.json
 ios/app/dropbox.key
 ios/app/GoogleService-Info.plist
 
