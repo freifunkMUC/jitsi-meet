@@ -71,9 +71,6 @@ body.welcome-page {
                 text-align: left;
                 color: #253858;
                 height: fit-content;
-                border-width: $welcomePageEnterRoomInputContainerBorderWidth;
-                border-style: $welcomePageEnterRoomInputContainerBorderStyle;
-                border-image: $welcomePageEnterRoomInputContainerBorderImage;
 
                 .enter-room-title {
                     display: $welcomePageEnterRoomTitleDisplay;
@@ -83,10 +80,24 @@ body.welcome-page {
                 }
 
                 .enter-room-input {
-                    border: none;
+                    border-width: $welcomePageEnterRoomInputContainerBorderWidth;
+                    border-style: $welcomePageEnterRoomInputContainerBorderStyle;
+                    border-image: $welcomePageEnterRoomInputContainerBorderImage;
                     display: inline-block;
                     width: 100%;
                     font-size: 14px;
+                }
+
+                .insecure-room-name-warning {
+                    align-items: center;
+                    color: $defaultWarningColor;
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 5px;
+
+                    svg {
+                        fill: $defaultWarningColor
+                    }
                 }
 
                 ::placeholder {
@@ -102,7 +113,7 @@ body.welcome-page {
             text-align: left;
             min-height: 354px;
             width: 710px;
-            background: #75A7E7;
+            background: #EA719D;
             display: $welcomePageTabContainerDisplay;
             flex-direction: column;
 
@@ -154,7 +165,7 @@ body.welcome-page {
         height: $welcomePageButtonHeight;
         font-size: $welcomePageButtonFontSize;
         font-weight: $welcomePageButtonFontWeight;
-        background: #0074E0;
+        background: #DC2C6C;
         border-radius: $welcomePageButtonBorderRadius;
         color: #FFFFFF;
         text-align: center;
